@@ -9,14 +9,15 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #fc766aff;
+    background-color: #1f2833;
 
 }
 .container {
-    background-color: #184a45ff;
+    background-color: #45a29e;
+    backdrop-filter: blur(40px);
     text-align: center;
     border-radius: 7px;
-    color: #b0b8b4ff;
+    color: #0b0c10;
 }
 .login {
     padding: 10px;
@@ -40,13 +41,13 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #184a45ff;
+    background-color: #1f2833;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #fc766aff;
+    background-color: #45a29e;
 }
 @media screen and (max-width: 600px) {
     .login {
